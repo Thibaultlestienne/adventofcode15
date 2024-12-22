@@ -1,7 +1,7 @@
 import re
 
 def etoile1(fichier): 
-    s = 0;
+    s = 0
     with open(fichier,"r") as f:
         lignes = f.readlines()
     for ligne in lignes:
